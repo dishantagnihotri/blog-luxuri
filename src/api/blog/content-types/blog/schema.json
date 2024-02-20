@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "image": {
       "type": "media",
@@ -30,7 +32,12 @@
       ]
     },
     "content": {
-      "type": "blocks"
+      "type": "blocks",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
     }
   }
 }
