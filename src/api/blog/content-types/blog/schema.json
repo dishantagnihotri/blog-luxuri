@@ -36,8 +36,9 @@
       "required": true
     },
     "category": {
-      "type": "string",
-      "required": true
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
     }
   }
 }
